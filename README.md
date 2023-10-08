@@ -9,21 +9,13 @@
 
 跟其他函式庫不同，Thirdweb 需要在平台註冊並取得 api key 才能正常使用，這部分有點類似ChatGPT，使用時需要將 id 寫在 Provider 裡才能正常連線到 web3，這部分要特別注意
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/36539707-ab30-4bcc-8faf-b7c6a1d4e5e4/a13d1aa0-aef9-492a-97c2-d94e6af1a76f/Untitled.png)
-
 ## 部屬智能合約
 
 想開發通用的智能合約可以透過平台提供的範本部署，若智能合約已經部屬在鏈上，我們只需要將智能合約的地址匯入 Thirdweb 即可使用 api 調用，匯入方式在下圖點選 Import Contract 再輸入合約地址即可，不管是部署還是匯入合約，完成後都能在 Thirdweb 提供的介面直接調用或查看內容，這部分比在區塊鏈瀏覽器還好用
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/36539707-ab30-4bcc-8faf-b7c6a1d4e5e4/41cad9e9-92b5-42c9-a2f4-0bbc846aa03f/Untitled.png)
-
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/36539707-ab30-4bcc-8faf-b7c6a1d4e5e4/6733907a-13a2-4732-bab9-f354f7a89553/Untitled.png)
-
 ## 程式範本
 
 點選智能合約函式在按下Code Snippets會出現使用範例，這部分對第一次使用的工程師非常友好
-
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/36539707-ab30-4bcc-8faf-b7c6a1d4e5e4/07223086-16c0-4e79-ba27-f6f4fc5da333/Untitled.png)
 
 ## 安裝Thirdweb及引用
 
@@ -64,9 +56,6 @@ function App() {
 
 這麼短短幾行就能完成錢包連線的所有功能，而且還支援多種錢包，也能自行設定那些錢包要出現
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/36539707-ab30-4bcc-8faf-b7c6a1d4e5e4/c20fa2d0-d7a4-44f4-a98a-741b6e02301c/Untitled.png)
-
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/36539707-ab30-4bcc-8faf-b7c6a1d4e5e4/59f48348-e417-46d2-9df2-fa67d3e779b8/Untitled.png)
 
 ## 調用函式
 
